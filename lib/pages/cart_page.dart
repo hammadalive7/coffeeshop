@@ -38,6 +38,7 @@ class _CartPageState extends State<CartPage> {
   void removeFromCart (Coffee coffee) {
     Provider.of<CoffeeShop>(context,listen:false).removeItemFromCart(coffee);
   }
+
   @override
   Widget build(BuildContext context) {
     return Consumer<CoffeeShop> (
