@@ -54,6 +54,7 @@ class _CartPageState extends State<CartPage> {
                style: TextStyle(fontSize: 20),
           ),
 
+
           // list of cart
           Expanded(
             child: ListView.builder(
